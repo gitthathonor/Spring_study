@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>chapter01</groupId>
-	<artifactId>ch01-bankapp-xml</artifactId>
+	<groupId>chapter02</groupId>
+	<artifactId>ch02-bankapp-interfaces</artifactId>
 	<packaging>jar</packaging>
 	<version>0.1.0.BUILD-SNAPSHOT</version>
-	<name>ch01-bankapp-xml</name>
+	<name>ch02-bankapp-interfaces</name>
 	<properties>
 		<spring.version>5.0.1.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,14 +21,6 @@
 			<id>spring-maven-milestone</id>
 			<name>Spring Maven Milestone Repository</name>
 			<url>http://maven.springframework.org/milestone</url>
-		</repository>
-		<repository>
-			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
-			<url>https://repo.spring.io/libs-snapshot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
 		</repository>
 	</repositories>
 	<pluginRepositories>
@@ -45,29 +37,29 @@
 	</pluginRepositories>
 	<dependencies>
 		<dependency>
-		   <groupId>org.apache.logging.log4j</groupId>
-		   <artifactId>log4j-api</artifactId>
-		   <version>2.5</version>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.5</version>
 		</dependency>
 		<dependency>
-		   <groupId>org.apache.logging.log4j</groupId>
-		   <artifactId>log4j-core</artifactId>
-		   <version>2.5</version>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.5</version>
 		</dependency>
 		<dependency>
-		   <groupId>org.apache.logging.log4j</groupId>
-		   <artifactId>log4j-jcl</artifactId>
-		   <version>2.5</version>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-jcl</artifactId>
+			<version>2.5</version>
 		</dependency>
 		<dependency>
-		   <groupId>org.slf4j</groupId>
-		   <artifactId>slf4j-api</artifactId>
-		   <version>1.7.19</version>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.19</version>
 		</dependency>
 		<dependency>
-		   <groupId>org.apache.logging.log4j</groupId>
-		   <artifactId>log4j-slf4j-impl</artifactId>
-		   <version>2.5</version>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>2.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
